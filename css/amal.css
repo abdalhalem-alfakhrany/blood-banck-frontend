@@ -1,0 +1,65 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.body {
+    color: rgb(19, 19, 19);
+    font-size: 30px;
+    float: right;
+}
+
+.background {
+    background-color: rgb(200, 204, 204);
+
+    background-position: center top;
+
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+
+    background-color: rgb(136, 235, 171);
+    overflow: hidden;
+
+}
+
+.navbar .logo {
+    float: left;
+    width: 40%;
+}
+
+.navbar .links {
+    float: right;
+    width: 60%;
+    margin-top: 15px;
+}
+
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 15px;
+    color: aliceblue;
+
+}
+
+.background-image {
+    width: 50%;
+    height: 50%;
+}
+
+.im {
+    width: 50%;
+    height: auto;
+}
